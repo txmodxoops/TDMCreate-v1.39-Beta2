@@ -50,7 +50,11 @@ $modversion['module_website_name'] = "XOOPS";
 $modversion['module_status'] = "Beta 2";
 
 $modversion['min_php'] = "5.3";
+<<<<<<< HEAD
 $modversion['min_xoops'] = "2.5.5";
+=======
+$modversion['min_xoops'] = "2.5.6";
+>>>>>>> 20dde8f52d982866e8a6af5d51ede597638a0f35
 $modversion['min_admin'] =  "1.1";
 $modversion['min_db'] = array('mysql' => '5.0.7', 'mysqli' => '5.0.7');
 //about
@@ -67,8 +71,13 @@ $modversion['adminmenu'] = "admin/menu.php";
 // Mysql file
 $modversion['sqlfile']['mysql'] = "sql/mysql.sql";
 // Tables
+<<<<<<< HEAD
 $modversion['tables'][0] = "tdmcreate_modules";
 $modversion['tables'][1] = "tdmcreate_tables";
+=======
+$modversion['tables'][0] = "mod_tdmcreate_modules";
+$modversion['tables'][1] = "mod_tdmcreate_tables";
+>>>>>>> 20dde8f52d982866e8a6af5d51ede597638a0f35
 // Scripts to run upon installation or update
 $modversion['onInstall'] = "include/install.php";
 //$modversion['onUpdate'] = "include/update.php";
@@ -152,7 +161,11 @@ $modversion['config'][$i]['title'] = "_MI_TDMCREATE_MODULE_SINCE";
 $modversion['config'][$i]['description'] = "";
 $modversion['config'][$i]['formtype'] = "textbox";
 $modversion['config'][$i]['valuetype'] = "text";
+<<<<<<< HEAD
 $modversion['config'][$i]['default'] = '2.5.5';
+=======
+$modversion['config'][$i]['default'] = '1.0.0';
+>>>>>>> 20dde8f52d982866e8a6af5d51ede597638a0f35
 $i++;
 $modversion['config'][$i]['name'] = "min_php";
 $modversion['config'][$i]['title'] = "_MI_TDMCREATE_MODULE_MIN_PHP";
@@ -166,7 +179,11 @@ $modversion['config'][$i]['title'] = "_MI_TDMCREATE_MODULE_MIN_XOOPS";
 $modversion['config'][$i]['description'] = "";
 $modversion['config'][$i]['formtype'] = "textbox";
 $modversion['config'][$i]['valuetype'] = "text";
+<<<<<<< HEAD
 $modversion['config'][$i]['default'] = '2.5.5';
+=======
+$modversion['config'][$i]['default'] = '2.5.6';
+>>>>>>> 20dde8f52d982866e8a6af5d51ede597638a0f35
 $i++;
 $modversion['config'][$i]['name'] = "min_admin";
 $modversion['config'][$i]['title'] = "_MI_TDMCREATE_MODULE_MIN_ADMIN";
@@ -391,4 +408,8 @@ $modversion['config'][$i]['description'] = "";
 $modversion['config'][$i]['formtype'] = "textbox";
 $modversion['config'][$i]['valuetype'] = "text";
 $modversion['config'][$i]['default'] = '11532';
+<<<<<<< HEAD
 unset($i);
+=======
+unset($i);
+>>>>>>> 20dde8f52d982866e8a6af5d51ede597638a0f35

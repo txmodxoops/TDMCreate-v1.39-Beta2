@@ -60,10 +60,17 @@ define('_MI_TDMCREATE_DISPLAY_ADMIN_SIDE', "Visible in Admin Panel");
 define('_MI_TDMCREATE_DISPLAY_USER_SIDE', "Visible in User side");
 define('_MI_TDMCREATE_ACTIVE_SEARCH', "Allow Search");
 define('_MI_TDMCREATE_ACTIVE_COMMENTS', "Allow Comments");
+
 define('_MI_TDMCREATE_ACTIVE_NOTIFICATIONS', "Allow notifications");
 define('_MI_TDMCREATE_ACTIVE_PERMISSIONS', "Allow permissions");
 define('_MI_TDMCREATE_INROOT_INSTALL', "Install this module directly in root/modules?");
 define('_MI_TDMCREATE_PAYPAL_BUTTON', "Paypal Button");
+
+define('_MI_TDMCREATE_ACTIVE_NOTIFICATIONS', "Allow Notifications");
+define('_MI_TDMCREATE_ACTIVE_PERMISSIONS', "Allow Permissions");
+define('_MI_TDMCREATE_INROOT_INSTALL', "Install this module directly in root/modules?");
+define('_MI_TDMCREATE_PAYPAL_BUTTON', "PayPal Button");
+
 define('_MI_TDMCREATE_SUBVERSION', "Subversion");
 define('_MI_TDMCREATE_MODULE_DESCRIPTION', "Module Description");
 define('_MI_TDMCREATE_MIMETYPES', "Mimetypes of images");
@@ -74,8 +81,16 @@ define('_MI_TDMCREATE_MAXSIZE_DESC', "Set maximum size of images in Bytes");
 define('_MI_TDMCREATE_BREAK_GENERAL', "General preferences");
 define('_MI_TDMCREATE_BREAK_REQUIRED', "Module required");
 define('_MI_TDMCREATE_BREAK_OPTIONAL', "Module optional");
+
 define('_MI_TDMCREATE_MODULE_MIN_PHP', "Minimum Php");
 define('_MI_TDMCREATE_MODULE_MIN_XOOPS', "Minimum Xoops");
+define('_MI_TDMCREATE_MODULE_MIN_ADMIN', "Minimum Admin");
+define('_MI_TDMCREATE_MODULE_MIN_MYSQL', "Minimum Database");
+define('_MI_TDMCREATE_MODULES_ADMINPAGER', "Modules adminpager");
+define('_MI_TDMCREATE_TABLES_ADMINPAGER', "Tables adminpager");
+
+define('_MI_TDMCREATE_MODULE_MIN_PHP', "Minimum PHP");
+define('_MI_TDMCREATE_MODULE_MIN_XOOPS', "Minimum XOOPS");
 define('_MI_TDMCREATE_MODULE_MIN_ADMIN', "Minimum Admin");
 define('_MI_TDMCREATE_MODULE_MIN_MYSQL', "Minimum Database");
 define('_MI_TDMCREATE_MODULES_ADMINPAGER', "Modules adminpager");
