@@ -50,9 +50,6 @@ $modversion['module_website_name'] = "XOOPS";
 $modversion['module_status'] = "Beta 2";
 
 $modversion['min_php'] = "5.3";
-
-$modversion['min_xoops'] = "2.5.5";
-
 $modversion['min_xoops'] = "2.5.6";
 
 $modversion['min_admin'] =  "1.1";
@@ -71,9 +68,6 @@ $modversion['adminmenu'] = "admin/menu.php";
 // Mysql file
 $modversion['sqlfile']['mysql'] = "sql/mysql.sql";
 // Tables
-
-$modversion['tables'][0] = "tdmcreate_modules";
-$modversion['tables'][1] = "tdmcreate_tables";
 
 $modversion['tables'][0] = "mod_tdmcreate_modules";
 $modversion['tables'][1] = "mod_tdmcreate_tables";
@@ -161,9 +155,7 @@ $modversion['config'][$i]['title'] = "_MI_TDMCREATE_MODULE_SINCE";
 $modversion['config'][$i]['description'] = "";
 $modversion['config'][$i]['formtype'] = "textbox";
 $modversion['config'][$i]['valuetype'] = "text";
-
-$modversion['config'][$i]['default'] = '2.5.5';
-//$modversion['config'][$i]['default'] = '1.0.0';
+$modversion['config'][$i]['default'] = '1.0.0';
 
 $i++;
 $modversion['config'][$i]['name'] = "min_php";
@@ -178,9 +170,7 @@ $modversion['config'][$i]['title'] = "_MI_TDMCREATE_MODULE_MIN_XOOPS";
 $modversion['config'][$i]['description'] = "";
 $modversion['config'][$i]['formtype'] = "textbox";
 $modversion['config'][$i]['valuetype'] = "text";
-
-$modversion['config'][$i]['default'] = '2.5.5';
-//$modversion['config'][$i]['default'] = '2.5.6';
+$modversion['config'][$i]['default'] = '2.5.6';
 
 $i++;
 $modversion['config'][$i]['name'] = "min_admin";
