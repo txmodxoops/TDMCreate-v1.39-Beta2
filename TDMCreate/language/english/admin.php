@@ -78,16 +78,6 @@ define('_AM_TDMCREATE_MODULES_AUTHOR_MAIL', "Author's Email");
 define('_AM_TDMCREATE_MODULES_AUTHOR_WEBSITE_URL', "Author's Website");
 define('_AM_TDMCREATE_MODULES_AUTHOR_WEBSITE_NAME', "Website's Name");
 
-define('_AM_TDMCREATE_MODULES_CREDITS', "Credits");	
-define('_AM_TDMCREATE_MODULES_LICENSE', "License");
-define('_AM_TDMCREATE_MODULES_RELEASE_INFO', "Release Info");	
-define('_AM_TDMCREATE_MODULES_RELEASE_FILE', "File attached to the release");
-define('_AM_TDMCREATE_MODULES_MANUAL', "Manual");	
-define('_AM_TDMCREATE_MODULES_MANUAL_FILE', "Manual file");
-define('_AM_TDMCREATE_MODULES_IMAGE', "Logo of the module");
-define('_AM_TDMCREATE_MODULES_DEMO_SITE_URL', "URL of the demo site");
-define('_AM_TDMCREATE_MODULES_DEMO_SITE_NAME', "Title of the demo site");	
-
 define('_AM_TDMCREATE_MODULES_CREDITS', "Credits");
 define('_AM_TDMCREATE_MODULES_LICENSE', "License");
 define('_AM_TDMCREATE_MODULES_RELEASE_INFO', "Release Info");
@@ -107,13 +97,6 @@ define('_AM_TDMCREATE_MODULES_STATUS', "Status");
 define('_AM_TDMCREATE_MODULES_DISPLAY_ADMIN', "Visible in Admin");
 define('_AM_TDMCREATE_MODULES_DISPLAY_USER', "Visible in User side");
 
-define('_AM_TDMCREATE_MODULES_ACTIVE_SEARCH', "Enable search");
-define('_AM_TDMCREATE_MODULES_ACTIVE_COMMENTS', "Enable comments");
-define('_AM_TDMCREATE_MODULES_ACTIVE_NOTIFICATIONS', "Enable notifications");
-define('_AM_TDMCREATE_MODULES_ACTIVE_PERMISSIONS', "Enable permissions");
-define('_AM_TDMCREATE_MODULES_INROOT_INSTALL', "Install this module directly in root/modules?");
-define('_AM_TDMCREATE_MODULES_PAYPAL_BUTTON', "Paypal Button");
-
 define('_AM_TDMCREATE_MODULES_ACTIVE_SEARCH', "Enable Search");
 define('_AM_TDMCREATE_MODULES_ACTIVE_COMMENTS', "Enable Comments");
 define('_AM_TDMCREATE_MODULES_ACTIVE_NOTIFICATIONS', "Enable Notifications");
@@ -128,14 +111,8 @@ define('_AM_TDMCREATE_TABLES_ADD', "Add tables to the form:");
 define('_AM_TDMCREATE_TABLES_EDIT', "Edit Module Tables");
 define('_AM_TDMCREATE_TABLES_MODULES', "Select a module");
 
-define('_AM_TDMCREATE_TABLES_NAME', "Name of the table <br> <i>(The name of the module will automatically be added to the prefix)</i> <br> Example: &#39;mod_module-name_table&#39;");
+define('_AM_TDMCREATE_TABLES_NAME', "Name of the table<br /><i>(The name of the module will automatically be added to the prefix)</i><br />Example: &#39;mod_module_name_table&#39;");
 define('_AM_TDMCREATE_TABLES_FIELDNAME', "Prefix of the fields <br> <i>(The prefix name will automatically be added in the next step)</i><br />Example: &#39;fieldname&#39;<br />Attention: Don't use underscore first of fieldname - this is what TDMCreate was generating");
-define('_AM_TDMCREATE_TABLES_NUMBER_FIELDS', "Number of fields for this table");
-define('_AM_TDMCREATE_TABLES_IMAGE', "Table Icon");
-define('_AM_TDMCREATE_TABLES_CATEGORY', "This table is a category or topic?");
-
-define('_AM_TDMCREATE_TABLES_NAME', "Name of the table <br> <i>(The name of the module will automatically be added to the prefix)</i> <br> Example: &#39;mod_module_name_table&#39;");
-define('_AM_TDMCREATE_TABLES_FIELDNAME', "Prefix of the fields <br> <i>(The prefix name will automatically be added in the next step)</i> <br> Example: &#39;fieldname&#39;_ (optional)");
 define('_AM_TDMCREATE_TABLES_NUMBER_FIELDS', "Number of fields for this table");
 define('_AM_TDMCREATE_TABLES_IMAGE', "Table Icon");
 define('_AM_TDMCREATE_TABLES_CATEGORY', "This table is a category?");
@@ -242,9 +219,6 @@ define('_AM_TDMCREATE_TABLES_STATUS', "Show Table Status");
 define('_AM_TDMCREATE_TABLES_WAITING', "Show Table Waiting");
 
 //1.39
-define('_AM_TDMCREATE_MODULES_MIN_PHP', "Minimum Php");
-define('_AM_TDMCREATE_MODULES_MIN_XOOPS', "Minimum Xoops");
-
 define('_AM_TDMCREATE_MODULES_MIN_PHP', "Minimum PHP");
 define('_AM_TDMCREATE_MODULES_MIN_XOOPS', "Minimum XOOPS");
 
